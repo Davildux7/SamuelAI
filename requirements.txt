@@ -1,0 +1,17 @@
+# Dependências Python do Samuel V2
+numpy
+openai
+python-dotenv
+sounddevice
+faster-whisper
+piper-tts
+vosk
+onnxruntime
+pyperclip
+psutil
+pil
+
+# Extras por plataforma (instalados pelo setup.py quando aplicável)
+pycaw; sys_platform == "win32"
+comtypes; sys_platform == "win32"
+mss; sys_platform == "win32"
